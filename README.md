@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Part 1: Counter Component  
+## Create the Counter Component:  
+  
+- In your Next.js project's components directory, create a file named Counter.js.
+- Implement a counter with three buttons to increase, decrease, and reset its value, as shown in the provided example.
+![image](https://github.com/rja87sd/day-2-assignment/assets/145504216/8b4b1809-c852-46a4-af78-146a2c6bc058)
+  
+## Integrate the Counter in Your Application:
+  
+- Import and render the Counter component in your src/app/page.js file.
+![image](https://github.com/rja87sd/day-2-assignment/assets/145504216/42949a86-1aa1-49c0-97a4-9a56146559d9)  
+  
+# Part 2: Controlled Form Component  
+## Set Up the User Form Component:  
+  
+- Create a new file named UserForm.js in the components directory.
+- Design a form with a single text input field for the user's name and a submit button. The form should display the input value using an alert upon submission.
+![image](https://github.com/rja87sd/day-2-assignment/assets/145504216/65f13c49-d9a7-4675-bb22-0af4ca23c670)  
+  
+## Implement Controlled Component Logic:  
+  
+- Utilize the useState hook to manage the input field's state, ensuring the input is a controlled component.
+- Include functions to handle changes to the input field and the form submission, as outlined in the example.
+![image](https://github.com/rja87sd/day-2-assignment/assets/145504216/c6a9272b-76a8-4a83-a550-41f93e3f6630)
+![image](https://github.com/rja87sd/day-2-assignment/assets/145504216/9cdad3a4-8cca-45bf-9096-b660838e242c)
+  
+## Display the Form in Your Application:  
+  
+- Import and include the UserForm component on a new page in your Next.js project, or on the existing page.js page.
+![image](https://github.com/rja87sd/day-2-assignment/assets/145504216/211d327f-3b53-4b6f-9c90-720f0dde7b2c)  
+  
+# Part 3: GitHub Repository Update  
+## Commit Your Changes:  
+  
+- Ensure all changes are committed to your Git repository with descriptive commit messages.
+  
+## Push to GitHub:  
 
-## Getting Started
+- Push your latest commits to your GitHub repository to update your project online.
+  
+# Part 4: Submission  
+## Submit Your GitHub Repository URL:  
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Provide the URL to your GitHub repository containing the updated project with the Counter and UserForm components.
